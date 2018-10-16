@@ -1,0 +1,77 @@
+<?xml version="1.0" standalone="no"?>        
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="50" height="50">     
+  <style>
+    .loadingWrap2{
+      width: 50px;
+      height: 50px;
+      animation: loadingWrap2 3s linear infinite;
+      transform-origin:50% 50%;
+    }
+    .loading2{
+      fill: #409eff;
+      transform-origin: 25px 25px;
+    }
+    .loading2-1{
+      transform:rotate(30deg);
+    }
+    .loading2-2{
+      transform:rotate(60deg);
+    }
+    .loading2-3{
+      transform:rotate(90deg);
+    }
+    .loading2-4{
+      transform:rotate(120deg);
+    }
+    .loading2-5{
+      transform:rotate(150deg);
+    }
+    .loading2-6{
+      transform:rotate(180deg);
+    }
+    .loading2-7{
+      transform:rotate(210deg);
+    }
+    .loading2-8{
+      transform:rotate(240deg);
+    }
+    .loading2-9{
+      transform:rotate(270deg);
+    }
+    .loading2-10{
+      transform:rotate(300deg);
+    }
+    .loading2-11{
+      transform:rotate(330deg);
+    }
+    .loading2-12{
+      transform:rotate(360deg);
+    }
+    @keyframes loadingWrap2{
+      0%{
+        transform: rotate(0deg)
+      }
+      100%{
+        transform: rotate(360deg)
+      }
+    }
+  </style>
+  <g class="loadingWrap2">
+    <ellipse cx="25" cy="8" rx="2" ry="6" class="loading2 loading2-1"></ellipse>
+    <ellipse cx="25" cy="8" rx="2" ry="6" class="loading2 loading2-2"></ellipse>
+    <ellipse cx="25" cy="8" rx="2" ry="6" class="loading2 loading2-3"></ellipse>
+    <ellipse cx="25" cy="8" rx="2" ry="6" class="loading2 loading2-4"></ellipse>
+    <ellipse cx="25" cy="8" rx="2" ry="6" class="loading2 loading2-5"></ellipse>
+    <ellipse cx="25" cy="8" rx="2" ry="6" class="loading2 loading2-6"></ellipse>
+    <ellipse cx="25" cy="8" rx="2" ry="6" class="loading2 loading2-7"></ellipse>
+    <ellipse cx="25" cy="8" rx="2" ry="6" class="loading2 loading2-8"></ellipse>
+    <ellipse cx="25" cy="8" rx="2" ry="6" class="loading2 loading2-9"></ellipse>
+    <ellipse cx="25" cy="8" rx="2" ry="6" class="loading2 loading2-10"></ellipse>
+    <ellipse cx="25" cy="8" rx="2" ry="6" class="loading2 loading2-11"></ellipse>
+    <ellipse cx="25" cy="8" rx="2" ry="6" class="loading2 loading2-12"></ellipse> 
+  </g>   
+  <script type="text/javascript">
+  </script>     
+</svg>
